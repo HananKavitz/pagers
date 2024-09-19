@@ -53,7 +53,7 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             display: inline-block;
-            width: 30%;
+            width: 50%;
         }
 
         .product img {
@@ -112,6 +112,15 @@
         .contact-form button:hover {
             background-color: #005bb5;
         }
+        .products {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main
+        {
+
+        }
 
     </style>
 </head>
@@ -129,8 +138,9 @@
         <a href="#contact">Contact Us</a>
     </nav>
 
-    <section id="products">
+    <section id="products" class="main">
         <h2>Our Pagers</h2>
+        <div class="products">
         <div class="product">
             <img src="https://www.silicon.co.uk/wp-content/uploads/2017/02/Pager-in-hand-684x513.jpg"
                  alt="Classic Pager">
@@ -150,6 +160,7 @@
             <p>Built for professionals with extended battery life and range. Built in Israel hating features! Support all your terrorist needs in one </p>
 <!--            <button>Buy Now</button>-->
         </div>
+            </div>
     </section>
 
     <section id="contact">
